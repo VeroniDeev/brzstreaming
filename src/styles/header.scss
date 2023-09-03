@@ -1,0 +1,10 @@
+header {
+  position: sticky;
+  .all-nav {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+  p {
+    color: #cacaca;
+  }
+}
