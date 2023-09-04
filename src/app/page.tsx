@@ -1,10 +1,12 @@
 import Header from "@/components/Header";
+import Carroussel from "@/components/Carroussel";
 
 const Home = () => {
   return (
-    <div className="bg-black">
+    <>
       <Header></Header>
-    </div>
+      <Carroussel></Carroussel>
+    </>
   );
 };
 

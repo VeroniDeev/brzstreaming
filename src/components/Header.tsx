@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header>
+    <header className="w-full h-auto">
       <div className="all-nav p-10 ">
         <div className="left-part">
           <Image src={brzStreamingLogo} alt="logo of the website" />
@@ -15,7 +15,7 @@ const Header = () => {
         <div className="middle-part flex justify-center">
           <nav className="w-2/4">
             <ul className="flex justify-around items-center">
-              <li className="text-white font-medium text-lg hover:font-bold">
+              <li className="text-white font-medium text-xl hover:font-bold">
                 <Link href="#"> Home</Link>
               </li>
               <li className="text-white font-medium text-lg hover:font-bold">
