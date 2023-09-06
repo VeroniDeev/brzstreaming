@@ -1,6 +1,6 @@
 # BrzStreaming
 
-This is a WebGPU sample that demonstrates the capabilities of this API. The sample showcases a 3D cube with multi-colored faces, and you can modify its position in the code. Please note that this project may not be suitable for everyone, as WebGPU availability depends on your web browser's support for the API.
+BrzStreaming is a open source project for movie streaming. Its not finished, so there are still bugs. When i finished school i continue at the night to contribute this project.
 
 ## Badges
 
@@ -16,33 +16,25 @@ This is a WebGPU sample that demonstrates the capabilities of this API. The samp
 
 ## Preview
 
-![App Screenshot](./page_example.png)
-
-You can check with this [url](webgpu-sample.vercel.app).
+![App Screenshot](./BrzStreaming.png)
 
 ## Requirement
 
-- **Web Browser with WebGPU Support**: Make sur to have a web browser with WebGPU enable you can check with:
-  - **Web Browsert based on chromium**:
-    [chrome://flags/#enable-unsafe-webgpu](chrome://flags/#enable-unsafe-webgpu)
-  - **Edge**:
-    [edge://flags/#enable-unsafe-webgpu](edge://flags/#enable-unsafe-webgpu)
-  - **Firefox**:
-    - Go to [about:config](about:config)
-    - Search **WebGPU** and activate it.
+- **Node.js**: Make sur to have Node.js installed in your pc.
+- **Yarn**: Its facultative, but thoughtful.
 
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://github.com/VeroniDeev/webgpu-sample
+  git clone https://github.com/VeroniDeev/brzstreaming.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd webgpu-sample
+  cd brzstreaming
 ```
 
 Install dependencies
@@ -60,7 +52,7 @@ npm install
 Start the server
 
 ```bash
-yarn run serve:dev
+yarn run dev
 ```
 
 ## Feedback
