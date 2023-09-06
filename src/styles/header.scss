@@ -4,7 +4,19 @@ header {
   left: 0;
   z-index: 10;
   .all-nav {
+    display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+    .middle-part {
+      display: flex;
+      justify-content: center;
+    }
+    .right-part {
+      display: flex;
+      justify-content: space-around;
+    }
+    .burger-icon {
+      display: none;
+    }
   }
   p {
     color: #cacaca;

@@ -29,7 +29,7 @@ const Header = () => {
 
   return (
     <header className="w-full h-auto">
-      <div className="all-nav p-10 ">
+      <div className="all-nav py-10 px-9 ">
         <div className="left-part">
           <Link href="/">
             <Image src={brzStreamingLogo} alt="logo of the website" />
